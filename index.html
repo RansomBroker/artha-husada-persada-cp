@@ -22,7 +22,7 @@
 
     <body>
         <header>
-            <nav class="position-relative navbar navbar-light bg-white navbar-expand-sm px-5 py-4">
+            <nav class="navbar navbar-light bg-white navbar-expand-sm px-5 py-4">
                 <div class="container-fluid">
                     <div class="d-flex justify-content-start align-items-center">
                         <a class="navbar-brand" href="#">
@@ -38,15 +38,18 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="container-fluid d-flex justify-content-center navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav gap-lg-5 gp-sm-0">
+                        <ul class="navbar-nav gap-lg-5 gap-sm-0">
                             <li class="nav-item">
                                 <a class="nav-link active" href="#">Home</a>
-                                <div class="p-1 px-4-5 bg-primary-gradient rounded-top position-absolute top-100 start-23-25"></div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Us <i class='bx bx-chevron-down'></i></a>
-                                <!-- <div class="p-1 px-4-7 bg-primary-gradient rounded-top position-absolute top-100 start-32 hide"></div> -->
-                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" role="button" id="dropdownAboutUs" data-bs-toggle="dropdown" aria-expanded="false">About Us <i class='bx bx-chevron-down'></i></a>
+                                <ul class="dropdown-menu ps-2 border-0 shadow-lg" aria-labelledby="dropdownAboutUs">
+                                    <li class="nav-item"><a href="#" class="nav-link"> About AHP</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link"> Vision & Mision </a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link"> Management</a></li>
+                                </ul>
+                            </li>   
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Product & Services</a>
                             </li>
