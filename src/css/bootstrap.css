@@ -10905,7 +10905,9 @@ textarea.form-control-lg {
 }
 
 @media only screen and (max-width: 526px) { 
-  .w-25 {
+
+  /* Jumbotron */
+  .carousel-caption{
     width: 75% !important;
   }
 
@@ -10925,4 +10927,7 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 1200px) {
+  .carousel-caption{
+    width: 25% !important;
+  }
 }
