@@ -6976,6 +6976,14 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
+.mt-6 {
+  margin-top: 6rem !important;
+}
+
+.mt-6-5 {
+  margin-top: 8.5rem !important;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
@@ -7382,7 +7390,7 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #3F9743 !important;
 }
 
 .text-success {
@@ -10896,6 +10904,17 @@ textarea.form-control-lg {
 
 /*# sourceMappingURL=bootstrap.css.map */
 
+.underline-shape {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -10933,7 +10952,16 @@ textarea.form-control-lg {
 
   .carousel-caption > .fs-4 {
     font-size: 1.5rem !important;
-  } 
+  }
+
+  /* Section 2 */
+  .mt-6-5 {
+    margin-top: 6rem !important;
+  }
+
+  .why-us > .fs-5 {
+    font-size: 1rem !important;
+  }
 }
 
 @media (min-width: 1200px) {
