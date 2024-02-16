@@ -10906,6 +10906,16 @@ textarea.form-control-lg {
 
 @media only screen and (max-width: 526px) { 
 
+  /* Navbar logo */
+  .navbar-brand > img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .brand-text {
+    font-size: 1rem; 
+  }
+
   /* Jumbotron/Carousel */
   .carousel-caption{
     width: 75% !important;
