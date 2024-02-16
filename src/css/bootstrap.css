@@ -6414,6 +6414,10 @@ textarea.form-control-lg {
   top: 0 !important;
 }
 
+.top-40 {
+  top: 40% !important;
+}
+
 .top-50 {
   top: 50% !important;
 }
@@ -6592,6 +6596,10 @@ textarea.form-control-lg {
 
 .w-55 {
   width: 55% !important;
+}
+
+.w-68 {
+  width: 68% !important;
 }
 
 .w-75 {
@@ -10833,7 +10841,7 @@ textarea.form-control-lg {
   }
 
   .fs-4 {
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
   }
 }
 @media print {
@@ -10886,32 +10894,35 @@ textarea.form-control-lg {
   z-index: 0;
 }
 
-/* bg image overlay */
-.background-overlay {
-  position: relative;
-}
+/*# sourceMappingURL=bootstrap.css.map */
 
-.background-overlay::before {
-  content: "";
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(64, 152, 67, 0.30) !important;
 }
 
-.background-overlay img {
-  width: 100%;
-  height: auto;
-  display: block;
+@media only screen and (max-width: 526px) { 
+  .w-25 {
+    width: 75% !important;
+  }
+
+  .carousel-item {
+    height: 415px;
+  }
+
+  .carousel-item .img-1 {
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+  }
+
+  .fs-4 {
+    font-size: 1.5rem !important;
+  } 
 }
 
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
+@media (min-width: 1200px) {
 }
-
-/*# sourceMappingURL=bootstrap.css.map */

@@ -18,11 +18,12 @@
 
         <!-- Bootstrap CSS v5.2.1 -->
         <link href="src/css/bootstrap.css" rel="stylesheet"/>
+        <link href="src/css/style.css" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <nav class="navbar navbar-light bg-white navbar-expand-sm px-5 py-4">
+            <nav class="navbar navbar-light navbar-expand-sm bg-white px-5 py-4">
                 <div class="container-fluid">
                     <div class="d-flex justify-content-start align-items-center">
                         <a class="navbar-brand" href="#">
@@ -34,10 +35,10 @@
                             <p class="m-0 p-0">PERSADA</span>
                         </div>
                     </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="container-fluid d-flex justify-content-center navbar-collapse" id="navbarNav">
+                    <div class="container-fluid d-flex justify-content-center navbar-collapse collapse" id="navbarNav">
                         <ul class="navbar-nav gap-lg-5 gap-sm-0">
                             <li class="nav-item">
                                 <a class="nav-link active" href="#">Home</a>
@@ -70,15 +71,18 @@
 
         <main>
             <!-- jumbotron -->
-            <div class="background-overlay">
-                <img src="src/img/asset_home_01.png" alt="Background Image">
-                <div class="overlay-text">
-                    <div class="container">
-                        <p class="fs-2 fw-bold text-light w-55">Empowering Businesses with Smart Solutions: Our Core Services at PT ARTHA HUTAMA PERSADA</p>
-                        <button class="btn btn-outline-light px-5 py-2 rounded-pill border border-3 fw-bold">Find Out</button>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="src/img/asset_home_01.png" class="d-block w-100 img-1" alt="...">
+                        <div class="overlay bg-primary-o-30"></div>
+                        <div class="carousel-caption top-40 end-50 translate-middle-y text-start w-25">
+                            <p class="fs-4 fw-bold text-light">Empowering Businesses with Smart Solutions: Our Core Services at PT ARTHA HUTAMA PERSADA</p>
+                            <button class="btn btn-outline-light px-5 py-2 rounded-pill border border-3 fw-bold">Find Out</button>
+                        </div>
                     </div>
                 </div>
-            </div>              
+            </div>
         </main>
         
         <footer>
