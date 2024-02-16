@@ -10936,21 +10936,21 @@ textarea.form-control-lg {
   }
 
   /* Jumbotron/Carousel */
-  .carousel-caption{
+  .jumbotron .carousel-inner .carousel-item > .carousel-caption{
     width: 75% !important;
   }
 
-  .carousel-item {
+  .jumbotron .carousel-inner .carousel-item {
     height: 415px;
   }
 
-  .carousel-item .img-1 {
+  .jumbotron .carousel-inner .carousel-item .img-1 {
     object-fit: cover;
     height: 100%;
     width: auto;
   }
 
-  .carousel-caption > .fs-4 {
+  .jumbotron .carousel-inner .carousel-item .carousel-caption > .fs-4 {
     font-size: 1.5rem !important;
   }
 
