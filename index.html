@@ -18,7 +18,8 @@
 
         <!-- Bootstrap CSS v5.2.1 -->
         <link href="src/css/bootstrap.css" rel="stylesheet"/>
-        <link href="src/css/style.css" rel="stylesheet">
+        <link href="src/css/owl.carousel.min.css" rel="stylesheet">
+        <link href="src/css/owl.theme.default.min.css" rel="stylesheet">
     </head>
 
     <body>
@@ -102,8 +103,56 @@
                 </div>
             </div>
             <!-- Section 3 / Our Product And Service -->
-            <div class="carousel slide" data-bs-ride="carousel">
-
+            <div class="our-product-services carousel slide mt-6-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="src/img/asset_home_02.png" alt="..." class="d-block w-100 img-1">
+                        <div class="overlay bg-primary-o-30"></div>
+                        <div class="carousel-caption position-absolute top-5 start-50 translate-middle-x w-100">
+                            <div class="container-md">
+                                <h1 class="text-light text-center fw-bold ">Our Services</h1>
+                                <div class="underline-container d-flex justify-content-center mt-4 mb-5">
+                                    <div class="underline-shape bg-light" style="height: 10px; width: 12%;"></div>
+                                </div>
+                            </div>
+                            <div class="product-card owl-carousel container-md px-5 mb-5 ">
+                                <!-- product 1 -->
+                                <div class="card card-hover shadow-lg rounded-18 p-2 p-xl-4 my-2 " style="width: 18rem; height: 24rem;">
+                                    <img src="src/img/product_1.png" class="card-img-top rounded-circle" alt="..." width="200" height="200">
+                                    <div class="card-body">
+                                        <p class="text-dark fs-5 text-center">Tax & Financial Services</p>
+                                        <a href="#" class="stretched-link"></a>
+                                    </div>
+                                </div>
+                                <!-- product 2 -->
+                                <div class="card card-hovershadow-lg rounded-18 p-2 p-xl-4 my-2" style="width: 18rem; height: 24rem;">
+                                    <img src="src/img/product_2.png" class="card-img-top rounded-circle" alt="..." width="200" height="200">
+                                    <div class="card-body">
+                                        <p class="text-dark fs-5 text-center">Enterprise Management System & HMIS</p>
+                                        <a href="#" class="stretched-link"></a>
+                                    </div>
+                                </div>
+                                <!-- product 3 -->
+                                <div class="card card-hover shadow-lg rounded-18 p-2 p-xl-4 my-2" style="width: 18rem; height: 24rem;">
+                                    <img src="src/img/product_3.png" class="card-img-top rounded-circle" alt="..." width="200" height="200">
+                                    <div class="card-body">
+                                        <p class="text-dark fs-5 text-center">Digital Information Hardware and IT Security Hardware</p>
+                                        <a href="#" class="stretched-link"></a>
+                                    </div>
+                                </div>
+                                <!-- product 4 -->
+                                <div class="card card-hover shadow-lg rounded-18 p-2 p-xl-4 my-2" style="width: 18rem; height: 24rem;">
+                                    <img src="src/img/product_4.png" class="card-img-top rounded-circle" alt="..." width="200" height="200">
+                                    <div class="card-body">
+                                        <p class="text-dark fs-5 text-center">Medical Equipment & Medical Consumable</p>
+                                        <a href="#" class="stretched-link"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary-gradient px-5 py-3 px-xl-5 py-xl-3 rounded-10 fw-bold">Explore More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         
@@ -112,5 +161,37 @@
         </footer>
     
         <script src="src/js/bootstrap.bundle.min.js"></script>
+        <script src="src/js/jquery-3.7.1.min.js"></script>
+        <script src="src/js/owl.carousel.min.js"></script>
+        
+        <script>
+            $(document).ready(function()  {
+                $('.product-card').owlCarousel({
+                    loop:true,
+                    margin:14,
+                    nav:true,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:2,
+                            margin:48
+                        },
+                        1000: {
+                            items: 3,
+                            margin:48
+                        },
+                        1336:{
+                            items:3
+                        },
+                        1400: {
+                            items:4
+                        }
+                    }
+                })
+
+            })
+        </script>
     </body>
 </html>

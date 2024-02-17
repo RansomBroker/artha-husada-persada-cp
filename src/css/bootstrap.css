@@ -6414,6 +6414,10 @@ textarea.form-control-lg {
   top: 0 !important;
 }
 
+.top-5 {
+  top: 5% !important;
+}
+
 .top-40 {
   top: 40% !important;
 }
@@ -7414,7 +7418,7 @@ textarea.form-control-lg {
 }
 
 .text-dark {
-  color: #212529 !important;
+  color: #1F1F1F !important;
 }
 
 .text-white {
@@ -10923,6 +10927,39 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.rounded-18 {
+  border-radius: 1.8rem !important;
+}
+
+.rounded-10 {
+  border-radius: 1rem !important;
+}
+
+.btn-primary-gradient {
+  color: #fff;
+  background: rgb(111,185,67);
+  background: linear-gradient(90deg, rgba(111,185,67,1) 0%, rgba(63,151,67,1) 100%);
+  border-color: rgb(111,185,67);
+}
+
+.btn-primary-gradient:hover {
+  color: #fff;
+  background: rgb(111,185,67);
+  background: linear-gradient(90deg, rgba(111,185,67,1) 0%, rgba(63,151,67,1) 100%);
+  border-color: rgb(111,185,67);
+}
+
+/* when card on services is hover */
+
+.card-hover:hover {
+  background-color: #6FB943 !important;
+}
+
+.card-hover:hover .card-body p {
+  color: #fff !important;
+  font-weight: 800;
+}
+
 @media only screen and (max-width: 526px) { 
 
   /* Navbar logo */
@@ -10962,10 +10999,41 @@ textarea.form-control-lg {
   .why-us > .fs-5 {
     font-size: 1rem !important;
   }
+
+  /* Product and Services */
+  .our-product-services .carousel-inner .carousel-item .carousel-caption .underline-container .underline-shape {
+    height: 6px !important;
+    width: 20%;
+  }
+
+  .our-product-services .carousel-inner .carousel-item {
+    height: 700px;
+  }
+
+  .our-product-services .carousel-inner .carousel-item .img-1 {
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+  }
+
+  .product-card .card {
+    width: 100% !important;
+  }
 }
 
 @media (min-width: 1200px) {
-  .carousel-caption{
-    width: 25% !important;
+  .jumbotron .carousel-inner .carousel-item .carousel-caption{
+    width: 27% !important;
   }
+
+  .our-product-services .carousel-inner .carousel-item {
+    height: 750px;
+  }
+
+  .our-product-services .carousel-inner .carousel-item .img-1 {
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+  }
+
 }
