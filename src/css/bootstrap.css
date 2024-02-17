@@ -11019,18 +11019,43 @@ textarea.form-control-lg {
   .product-card .card {
     width: 100% !important;
   }
+
+  /* Section 5 / Partner */
+  .our-partner .carousel-inner .carousel-item {
+    height: 800px;
+  }
+
+  .our-partner .carousel-inner .carousel-item .img-1 {
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+  }
 }
 
 @media (min-width: 1200px) {
+  /* Section 1 */
   .jumbotron .carousel-inner .carousel-item .carousel-caption{
     width: 27% !important;
   }
 
+  /* Section 3 */
   .our-product-services .carousel-inner .carousel-item {
     height: 750px;
   }
 
   .our-product-services .carousel-inner .carousel-item .img-1 {
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+  }
+
+  /* Section 5 */
+
+  .our-partner .carousel-inner .carousel-item {
+    height: 600px;
+  }
+
+  .our-partner .carousel-inner .carousel-item .img-1 {
     object-fit: cover;
     height: 100%;
     width: auto;
