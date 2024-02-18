@@ -11221,4 +11221,8 @@ textarea.form-control-lg {
     width: auto;
   }
 
+  .card-qr {
+    width: 60% !important;
+  }
+
 }
