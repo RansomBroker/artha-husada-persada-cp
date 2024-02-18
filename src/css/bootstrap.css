@@ -10982,6 +10982,60 @@ textarea.form-control-lg {
   font-weight: 800;
 }
 
+.get-know {
+  padding: 0;
+}
+
+.get-know li {
+  list-style-type: none;
+  margin-bottom: 1rem !important;
+}
+
+.get-know li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.wa-color {
+  background-color: #409843;
+}
+
+.wa-icon{
+  text-decoration: none;
+  color: #fff;
+}
+
+.mail-color {
+  background-color: #FD5C5C;
+}
+
+.mail-icon {
+  text-decoration: none;
+  color: #fff;
+}
+
+.linkedin-color {
+  background-color: #008CDB;
+}
+
+.linkedin-icon {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bg-footer {
+  background: rgb(111,185,67);
+  background: linear-gradient(40deg, rgba(111,185,67,1) 0%, rgba(63,151,67,0.7) 100%);
+}
+
+.card-qr {
+  width: 75% !important;
+}
+
+.corporate-history {
+  width: 75% !important;
+}
+
 @media only screen and (max-width: 526px) { 
 
   /* Navbar logo */
@@ -11070,6 +11124,14 @@ textarea.form-control-lg {
     margin-bottom: 1rem !important;
     width: 100% !important;
   }
+
+  .card-qr {
+    width: 50% !important;
+  }
+
+  .corporate-history {
+    width: 100% !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -11103,6 +11165,10 @@ textarea.form-control-lg {
     width: auto;
   }
 
+  .card-qr {
+    width: 20% !important;
+  }
+
 }
 
 @media (min-width: 992px) { 
@@ -11118,6 +11184,10 @@ textarea.form-control-lg {
     object-fit: cover;
     height: 100%;
     width: auto;
+  }
+
+  .card-qr {
+    width: 75% !important;
   }
 
 }
