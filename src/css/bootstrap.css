@@ -11043,6 +11043,42 @@ textarea.form-control-lg {
   text-shadow: rgb(64, 152, 67) 1px 0px 0px, rgb(64, 152, 67) 0.540302px 0.841471px 0px, rgb(64, 152, 67) -0.416147px 0.909297px 0px, rgb(64, 152, 67) -0.989992px 0.14112px 0px, rgb(64, 152, 67) -0.653644px -0.756802px 0px, rgb(64, 152, 67) 0.283662px -0.958924px 0px, rgb(64, 152, 67) 0.96017px -0.279415px 0px;
 }
 
+.vision-mision {
+  background-color: rgba(111, 185, 67, 0.3);
+}
+
+.vision {
+  height: 38rem;
+}
+
+.vision-text {
+  padding-top: 10rem;
+  padding-left: 5rem;
+  padding-right: 12rem;
+}
+
+.mission {
+  height: 38rem;
+}
+
+.mission-text {
+  padding-top: 10rem;
+  padding-left: 5rem;
+  padding-right: 12rem;
+}
+
+.bg-vision {
+  background-image: url('../img/vm_bg_1.png');
+  background-repeat: no-repeat;
+}
+
+.bg-mission {
+  background-image: url('../img/vm_bg_2.png');
+  background-repeat: no-repeat;
+  background-position: 750% bottom;
+}
+
+
 @media only screen and (max-width: 526px) { 
 
   /* Navbar logo */
@@ -11139,6 +11175,23 @@ textarea.form-control-lg {
   .corporate-history {
     width: 100% !important;
   }
+
+  /* vision & mission */
+  .vision-text {
+    padding-top: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .mission-text {
+    padding-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .bg-mission {
+    background-position: center;
+  }
 }
 
 @media (min-width: 768px) {
@@ -11176,6 +11229,24 @@ textarea.form-control-lg {
     width: 20% !important;
   }
 
+  /* vision & mission */
+  .vision-text {
+    padding-top: 10rem;
+  }
+
+  .mission-text {
+    padding-top: 0rem;
+  }
+
+  .bg-vision{
+    background-position:center;
+    background-size:cover;
+  }
+
+  .bg-mission {
+    background-position:center;
+    background-size:cover;
+  }
 }
 
 @media (min-width: 992px) { 
@@ -11232,4 +11303,42 @@ textarea.form-control-lg {
     width: 60% !important;
   }
 
+  /* vision & mision page */
+  .vision {
+    height: 38rem;
+  }
+  
+  .vision-text {
+    padding-top: 10rem;
+    padding-left: 5rem;
+    padding-right: 12rem;
+  }
+  
+  .mission {
+    height: 38rem;
+  }
+
+  .mission-text {
+    padding-top: 10rem;
+    padding-left: 5rem;
+    padding-right: 12rem;
+  }
+  
+  .bg-vision {
+    background-size:auto;
+    background-position: 0% 0%;
+  }
+  
+  .bg-mission {
+    background-size:auto;
+    background-position: 750% bottom;
+  }
+
+}
+
+@media (min-width: 2000px) {
+  .bg-mission {
+    background-size:auto;
+    background-position: right bottom;
+  }
 }
