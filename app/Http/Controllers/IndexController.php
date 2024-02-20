@@ -25,4 +25,9 @@ class IndexController extends Controller
     {
         return view('indexes.management');
     }
+
+    public function ourPartner()
+    {
+        return view('indexes.our_partner');
+    }
 }

@@ -11097,6 +11097,11 @@ textarea.form-control-lg {
     padding-right: 20rem;
 }
 
+.container-our-partner {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
 @media only screen and (max-width: 526px) {
 
   /* Navbar logo */
@@ -11222,6 +11227,12 @@ textarea.form-control-lg {
         padding-top: 8rem;
         padding-left:4rem;
         padding-right: 4rem;
+    }
+
+    /* Our Partner */
+    .container-our-partner {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 

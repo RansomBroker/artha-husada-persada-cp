@@ -28,16 +28,16 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="product_services.html">Product & Services</a>
+                        <a class="nav-link" href="{{ route('index.product.services.view') }}">Product & Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="partner.html">Our Partner</a>
+                        <a class="nav-link" href="{{ route('index.our.partner.view') }}">Our Partner</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="client.html">Our Client</a>
+                        <a class="nav-link" href="{{ route('index.our.client.view') }}">Our Client</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact_us.html">Contact Us</a>
+                        <a class="nav-link" href="{{ route('index.contact.us.view') }}">Contact Us</a>
                     </li>
                 </ul>
             </div>
