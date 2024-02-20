@@ -20,4 +20,9 @@ class IndexController extends Controller
     {
         return view('indexes.vision_mission');
     }
+
+    public function management()
+    {
+        return view('indexes.management');
+    }
 }

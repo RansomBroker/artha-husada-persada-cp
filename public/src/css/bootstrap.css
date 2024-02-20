@@ -7453,6 +7453,10 @@ textarea.form-control-lg {
   background-color: rgba(64, 152, 67, 0.30) !important;
 }
 
+.bg-black-o-78 {
+    background-color: rgba(31, 31, 31, 0.78) !important;
+}
+
 .bg-primary-gradient {
   background: rgb(111,185,67);
   background: linear-gradient(90deg, rgba(111,185,67,1) 0%, rgba(63,151,67,1) 100%);
@@ -11079,6 +11083,20 @@ textarea.form-control-lg {
 }
 
 
+/* page Management */
+.jumbotron-management {
+    min-height: 32.5rem;
+    background-image: url("../img/management_bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.management-caption {
+    padding-top: 8rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
 @media only screen and (max-width: 526px) {
 
   /* Navbar logo */
@@ -11153,7 +11171,7 @@ textarea.form-control-lg {
   .contact-card {
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 1rem !important;
-    border-bottom-left-radius: 1rem !important:
+    border-bottom-left-radius: 1rem !important;
   }
 
   .address {
@@ -11192,6 +11210,19 @@ textarea.form-control-lg {
   .bg-mission {
     background-position: center;
   }
+
+  /* Management */
+    .jumbotron-management {
+        min-height: 32.5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .management-caption {
+        padding-top: 8rem;
+        padding-left:4rem;
+        padding-right: 4rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -11247,6 +11278,19 @@ textarea.form-control-lg {
     background-position:center;
     background-size:cover;
   }
+
+  /* Management */
+    .jumbotron-management {
+        min-height: 32.5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .management-caption {
+        padding-top: 8rem;
+        padding-left:4rem;
+        padding-right: 4rem;
+    }
 }
 
 @media (min-width: 992px) {
