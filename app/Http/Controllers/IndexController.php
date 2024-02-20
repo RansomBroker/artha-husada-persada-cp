@@ -30,4 +30,9 @@ class IndexController extends Controller
     {
         return view('indexes.our_partner');
     }
+
+    public function ourClient()
+    {
+        return view('indexes.our_client');
+    }
 }
