@@ -35,4 +35,9 @@ class IndexController extends Controller
     {
         return view('indexes.our_client');
     }
+
+    public function contactUs()
+    {
+        return view('indexes.contact_us');
+    }
 }

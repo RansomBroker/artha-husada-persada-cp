@@ -11102,6 +11102,19 @@ textarea.form-control-lg {
     padding-right: 8rem;
 }
 
+.bg-contact-us {
+    min-height: 18rem;
+    background-image: url("../img/bg_contact_us.png");
+}
+
+.underline-width {
+    width: 10% !important;
+}
+
+.card-transparent {
+    background-color: rgba(255, 255,255, 0.0);
+}
+
 @media only screen and (max-width: 526px) {
 
   /* Navbar logo */
