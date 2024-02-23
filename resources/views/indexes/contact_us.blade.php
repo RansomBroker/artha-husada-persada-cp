@@ -31,42 +31,68 @@
                     <div class="card card-transparent border-0 col-12 col-lg-6 col-xl-6">
                         <div class="card-body">
                             <p class="text-center fs-4 text-primary fw-bold">Contact Our Team</p>
-                            <form action="" method="POST">
+                            <form action="{{ route('index.send.mail') }}" method="POST">
+                                @csrf
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12 col-xl-6 col-12">
                                         <div class="form-floating mb-3">
-                                            <input type="text" class="form-control form-control-sm rounded-10" id="name" placeholder="Your Name">
+                                            <input type="text" class="form-control form-control-sm rounded-10 @error('name') is-invalid @enderror" id="name" name="name" placeholder="Your Name" required>
                                             <label for="name">Your Name</label>
+                                            @error('name')
+                                            <div class="invalid-feedback">
+                                                {{ $message }}
+                                            </div>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-xl-6 col-12">
                                         <div class="form-floating mb-3">
-                                            <input type="text" class="form-control form-control-sm rounded-10" id="companyName" placeholder="Company Name">
+                                            <input type="text" class="form-control form-control-sm rounded-10 @error('company') is-invalid @enderror" id="companyName" name="company" placeholder="Company Name" required>
                                             <label for="companyName">Company Name</label>
+                                            @error('company')
+                                            <div class="invalid-feedback">
+                                                {{ $message }}
+                                            </div>
+                                            @enderror
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12 col-xl-6 col-12">
                                         <div class="form-floating mb-3">
-                                            <input type="email" class="form-control form-control-sm rounded-10" id="email" placeholder="Email Address">
+                                            <input type="email" class="form-control form-control-sm rounded-10 @error('email') is-invalid @enderror" id="email" name="email" placeholder="Email Address" required>
                                             <label for="name">Email Address</label>
+                                            @error('email')
+                                            <div class="invalid-feedback">
+                                                {{ $message }}
+                                            </div>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-xl-6 col-12">
                                         <div class="form-floating mb-3">
-                                            <input type="tel" class="form-control form-control-sm rounded-10" id="phone" placeholder="Phone Number">
+                                            <input type="tel" class="form-control form-control-sm rounded-10 @error('phone') is-invalid @enderror" id="phone" name="phone" placeholder="Phone Number" required>
                                             <label for="phone">Phone Number</label>
+                                            @error('phone')
+                                            <div class="invalid-feedback">
+                                                {{ $message }}
+                                            </div>
+                                            @enderror
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12 col-xl-12 col-12">
-                                        <textarea name="message" id="message" cols="30" rows="10" class="form-control form-control-sm rounded-10 p-2">Message</textarea>
+                                        <textarea name="body" id="message" cols="30" rows="10" class="form-control form-control-sm rounded-10 p-2 @error('body') is-invalid @enderror" required>Message</textarea>
+                                        @error('message')
+                                        <div class="invalid-feedback">
+                                            {{ $message }}
+                                        </div>
+                                        @enderror
                                     </div>
                                 </div>
 
-                                <a href="{{ route('index.product.services.view') }}" class="wow fadeIn btn btn-primary-gradient px-5 py-3 px-xl-5 py-xl-3 rounded-10 fw-bold mt-3 w-100">Send Message</a>
+                                <button class="wow fadeIn btn btn-primary-gradient px-5 py-3 px-xl-5 py-xl-3 rounded-10 fw-bold mt-3 w-100">Send Message</button>
                             </form>
                         </div>
                     </div>

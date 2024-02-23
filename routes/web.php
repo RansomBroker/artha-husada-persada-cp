@@ -22,4 +22,10 @@ Route::controller(IndexController::class)->name('index.')->group(function () {
    Route::get('/our-client', 'ourClient')->name('our.client.view');
    Route::get('/our-partner', 'ourPartner')->name('our.partner.view');
    Route::get('/contact-us', 'contactUs')->name('contact.us.view');
+
+   Route::post('/send-mail', 'sendMail')->name('send.mail');
 });
+
+/*Route::get('/mail',function () {
+   return view('emails.email_body');
+});*/

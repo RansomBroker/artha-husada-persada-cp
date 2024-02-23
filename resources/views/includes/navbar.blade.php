@@ -17,7 +17,10 @@
             <div class="container-fluid d-flex justify-content-center navbar-collapse collapse" id="navbarNav">
                 <ul class="navbar-nav gap-lg-5 gap-sm-0">
                     <li class="nav-item">
-                        <a class="nav-link @if(Route::is('index.index.view'))active @endif)" href="{{ route('index.index.view') }}">Home</a>
+                        <a class="nav-link @if(Route::is('index.index.view'))active @endif" href="{{ route('index.index.view') }}">Home</a>
+                        @if(Route::is('index.index.view'))
+                            <div class="underline-shape bg-primary-gradient w-100" style="height: 4px;"></div>
+                        @endif
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link @if(Route::is('index.about.us.view') || Route::is('index.vision.mission.view') || Route::is('index.management.view'))active @endif" href="#" role="button" id="dropdownAboutUs" data-bs-toggle="dropdown" aria-expanded="false">About Us <i class='bx bx-chevron-down'></i></a>
@@ -26,18 +29,33 @@
                             <li class="nav-item"><a href="{{ route('index.vision.mission.view') }}" class="nav-link"> Vision & Mision </a></li>
                             <li class="nav-item"><a href="{{ route('index.management.view') }}" class="nav-link"> Management</a></li>
                         </ul>
+                        @if(Route::is('index.about.us.view') || Route::is('index.vision.mission.view') || Route::is('index.management.view'))
+                            <div class="underline-shape bg-primary-gradient w-100" style="height: 4px;"></div>
+                        @endif
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link @if(Route::is('index.product.services.view'))active @endif)" href="{{ route('index.product.services.view') }}">Product & Services</a>
+                        <a class="nav-link @if(Route::is('index.product.services.view'))active @endif" href="{{ route('index.product.services.view') }}">Product & Services</a>
+                        @if(Route::is('index.product.services.view'))
+                            <div class="underline-shape bg-primary-gradient w-100" style="height: 4px;"></div>
+                        @endif
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link @if(Route::is('index.our.partner.view'))active @endif)" href="{{ route('index.our.partner.view') }}">Our Partner</a>
+                        <a class="nav-link @if(Route::is('index.our.partner.view'))active @endif" href="{{ route('index.our.partner.view') }}">Our Partner</a>
+                        @if(Route::is('index.our.partner.view'))
+                            <div class="underline-shape bg-primary-gradient w-100" style="height: 4px;"></div>
+                        @endif
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link @if(Route::is('index.our.client.view'))active @endif)" href="{{ route('index.our.client.view') }}">Our Client</a>
+                        <a class="nav-link @if(Route::is('index.our.client.view'))active @endif" href="{{ route('index.our.client.view') }}">Our Client</a>
+                        @if(Route::is('index.our.client.view'))
+                            <div class="underline-shape bg-primary-gradient w-100" style="height: 4px;"></div>
+                        @endif
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link @if(Route::is('index.contact.us.view'))active @endif)" href="{{ route('index.contact.us.view') }}">Contact Us</a>
+                        <a class="nav-link @if(Route::is('index.contact.us.view'))active @endif" href="{{ route('index.contact.us.view') }}">Contact Us</a>
+                        @if(Route::is('index.contact.us.view'))
+                            <div class="underline-shape bg-primary-gradient w-100" style="height: 4px;"></div>
+                        @endif
                     </li>
                 </ul>
             </div>
