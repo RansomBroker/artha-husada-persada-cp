@@ -2,31 +2,31 @@
 @section('title', 'Contact Us Artha Husada Persada')
 @section('content')
     <div class="container-fluid p-0">
-        <div class="container-fluid p-0 position-relative">
+        <div class="container-fluid p-0 position-relative wow fadeIn">
             <div class="bg-contact-us"></div>
             <div class="overlay bg-primary-o-30"></div>
         </div>
-        <div class="container-fluid p-0 mt-5">
+        <div class="container-fluid p-0 mt-5 wow fadeIn">
             <h1 class="text-center text-primary">Contact Us</h1>
             <div class="d-flex justify-content-center mt-4 mb-5 wow fadeIn">
                 <div class="underline-shape underline-width bg-primary-gradient" style="height: 10px;"></div>
             </div>
             <div class="row d-flex justify-content-center mb-5">
-                <div class="col-lg-6 col-xl-4 col-12">
+                <div class="col-lg-6 col-xl-4 col-12 wow fadeInUp">
                     <p class="text-center text-primary mb-0 display-1"><i class='bx bx-map' ></i></p>
                     <p class="text-center fw-bold text-secondary fs-3 m-0 mb-0"><span class="fs-5">Where Are We</span></p>
                     <p class="text-center m-0 p-0">Epiwalk Suites Office 5th Floor</p>
                     <p class="text-center m-0 p-0">Jl. H.R Rasuna Epicentrum</p>
                     <p class="text-center m-0 p-0">Jakarta Selatan</p>
                 </div>
-                <div class="col-lg-6 col-xl-4 col-12">
+                <div class="col-lg-6 col-xl-4 col-12 wow fadeInDown">
                     <p class="text-center text-primary mb-0 display-1"><i class='bx bx-phone' ></i></p>
                     <p class="text-center fw-bold text-secondary fs-3 m-0 mb-0"><span class="fs-5">if you need us</span></p>
                     <p class="text-center m-0 p-0">Phone : +62 21 29941392</p>
                     <p class="text-center m-0 p-0">Email : info.cs@ahpersada.com</p>
                 </div>
             </div>
-            <div class="container-fluid p-0 bg-primary-o-30">
+            <div class="container-fluid p-0 bg-primary-o-30 wow fadeInDown">
                 <div class="row d-flex justify-content-center p-5">
                     <div class="card card-transparent border-0 col-12 col-lg-6 col-xl-6">
                         <div class="card-body">

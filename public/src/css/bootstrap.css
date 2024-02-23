@@ -11096,7 +11096,63 @@ textarea.form-control-lg {
     padding-left: 20rem;
     padding-right: 20rem;
 }
+/* End Of Management Page*/
 
+/* Page Product Services */
+.jumbotron-pos {
+    min-height: 26rem;
+    background-image: url("../img/bg-product-services.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pos-caption {
+    padding-top: 4rem;
+    padding-left: 8rem;
+}
+
+.p-products {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.nav-product > .nav-item > .nav-link {
+    color: #6FB943 !important;
+    height: 100%;
+}
+
+.nav-product > .nav-item > .nav-link {
+    border-radius: 0;
+}
+
+.nav-product > .nav-item > .active {
+    color: #FFFFFF !important;
+    background-color: #6FB943 !important;
+}
+
+.card-product {
+    border-color: #6FB943 !important;
+    border-radius: 0.8rem;
+}
+
+.tax-list .card-product {
+    height: 16rem;
+}
+
+.digi-it-list .card-product {
+    height: 16rem;
+}
+
+.ems-hmis-list .card-product {
+    height: 16rem;
+}
+
+.medical-list .card-product {
+    height: 10rem;
+}
+
+
+/* End of Product Services Page*/
 .container-our-partner {
     padding-left: 8rem;
     padding-right: 8rem;
@@ -11246,6 +11302,17 @@ textarea.form-control-lg {
     .container-our-partner {
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+
+    /* services product */
+    .pos-caption {
+        padding-top: 4rem;
+        padding-left: 4rem;
+    }
+
+    .p-products {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 

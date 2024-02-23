@@ -40,4 +40,9 @@ class IndexController extends Controller
     {
         return view('indexes.contact_us');
     }
+
+    public function productServices()
+    {
+        return view('indexes.product_services');
+    }
 }
