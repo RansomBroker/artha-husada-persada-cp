@@ -15,13 +15,13 @@
                             <div class="underline-shape bg-secondary w-25" style="height: 4px"></div>
                         </div>
                         <ul class="get-know">
-                            <li><a href="#">About AHP</a></li>
-                            <li><a href="#">Vision & Mission </a></li>
-                            <li><a href="#">Board of Directors </a></li>
-                            <li><a href="#">Product & Services</a></li>
-                            <li><a href="#">Our Partner</a></li>
-                            <li><a href="#">Our Client</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="{{ route('index.about.us.view') }}">About AHP</a></li>
+                            <li><a href="{{ route('index.vision.mission.view') }}">Vision & Mission </a></li>
+                            <li><a href="{{ route('index.management.view') }}">Board of Directors </a></li>
+                            <li><a href="{{ route('index.product.services.view') }}">Product & Services</a></li>
+                            <li><a href="{{ route('index.our.partner.view') }}">Our Partner</a></li>
+                            <li><a href="{{ route('index.our.client.view') }}">Our Client</a></li>
+                            <li><a href="{{ route('index.contact.us.view') }}">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

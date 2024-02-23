@@ -17,7 +17,7 @@
             <div class="container-fluid d-flex justify-content-center navbar-collapse collapse" id="navbarNav">
                 <ul class="navbar-nav gap-lg-5 gap-sm-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="{{ route('index.index.view') }}">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" role="button" id="dropdownAboutUs" data-bs-toggle="dropdown" aria-expanded="false">About Us <i class='bx bx-chevron-down'></i></a>
