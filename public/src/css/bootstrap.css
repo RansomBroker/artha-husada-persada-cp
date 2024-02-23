@@ -11135,6 +11135,15 @@ textarea.form-control-lg {
     border-radius: 0.8rem;
 }
 
+.card-product:hover {
+    border-color: #6FB943 !important;
+    background-color: #6FB943 !important;
+}
+
+.card-product:hover > .card-body .text-primary {
+    color: #fff !important;
+}
+
 .tax-list .card-product {
     height: 16rem;
 }
